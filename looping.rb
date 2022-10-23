@@ -40,3 +40,13 @@ def reverse_string(str)
   new_str
 end
 
+# Another method
+
+# def reverse_string(str)
+
+# string= str.split("")
+#   rev="".split("")
+#   string.length.downto(0){|n| rev << str[n]}
+#   return rev.join
+# end
+
